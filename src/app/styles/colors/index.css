@@ -1,0 +1,18 @@
+:root {
+    --color-white: #FCFCFC;
+    --color-cart: #f7f7f7;
+    --color-gray: #dfdfdf;
+    --color-black: #131313;
+    --color-grsdirnt-blue: linear-gradient(242deg, #4fc4cf 0%, #2aedff 100%);
+    --color-grsdirnt-purpure: linear-gradient(90deg, #994ff3 0%, #3126a4 100%);
+
+    --color-mts-bg: #fff5f3;
+    --color-tb-bg: #fff0bb;
+    --color-yota-bg: #d2edfb;
+    --color-mgf-bg: #90efcc;
+    --color-tele2-bg: linear-gradient(136deg, #141414 0%, #ededed 13.43%, #ededed 87.5%, #141414 100%);
+    --color-tbank-bg: linear-gradient(136deg, #141414 0%, #ffee97 13.43%, #ffee97 87.5%, #141414 100%);
+    --color-sber-bg: radial-gradient(75.35% 71.67% at 50% 50%, rgb(91, 215, 113) 0%, rgb(230, 226, 133) 42.50427186489105%, rgb(238, 234, 140) 67.50427484512329%, rgb(212, 239, 143) 88.50427269935608%, rgb(179, 225, 241) 100%);
+    --color-rtk-bg: linear-gradient(137deg, #e3caff 0%, #ffb297 100%);
+
+}

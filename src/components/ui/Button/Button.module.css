@@ -1,0 +1,59 @@
+.button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.normal {
+    background: var(--color-grsdirnt-purpure);
+    border-radius: 10px;
+    padding: 15px 36px;
+}
+
+.primary {
+    background-image: linear-gradient(to right, #3126a4 0%, #994ff3 50%, #3126a4 100%);
+    background-size: 200% auto;
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 5px 14px;
+
+    &:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+    }
+
+}
+
+.ghost {
+    position: relative;
+    color: var(--color-black);
+    background: var(--color-white);
+    border-radius: 8px;
+    padding: 5px 14px;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        border-radius: 10px;
+        background-image: linear-gradient(to right, #3126a4 0%, #994ff3 50%, #3126a4 100%);
+        background-size: 200% auto;
+        transition: all 0.3s ease-in-out;
+        z-index: -1;
+    }
+
+    &:hover {
+        background-position: right center;
+        /* change the direction of the change here */
+    }
+
+    &:hover::before {
+        background-position: right center;
+    }
+}

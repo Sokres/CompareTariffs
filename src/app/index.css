@@ -1,0 +1,7 @@
+@import 'styles/global/box-model.css';
+@import 'styles/global/focus.css';
+@import 'styles/colors/index.css';
+@import 'styles/sizes/desctop.css';
+@import 'styles/sizes/mobile.css';
+@import 'styles/sizes/tablet.css';
+@import 'styles/styles.css';

@@ -1,0 +1,12 @@
+* {
+    font-family: var(--my-font)
+}
+
+.body {
+    margin: 0;
+    line-height: 1.5;
+    background: var(--color-white);
+    overflow-wrap: anywhere;
+    font-size: var(--font-size-normal);
+    color: var(--color-black);
+}
